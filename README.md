@@ -1,14 +1,14 @@
-# OpenDroneMap
+# DroneMapper
 
 ![](https://raw.githubusercontent.com/OpenDroneMap/OpenDroneMap/master/img/odm_image.png)
 
 ## What is it?
 
-OpenDroneMap is an open source toolkit for processing aerial drone imagery. Typical drones use simple point-and-shoot cameras, so the images from drones, while from a different perspective, are similar to any pictures taken from point-and-shoot cameras, i.e. non-metric imagery. OpenDroneMap turns those simple images into three dimensional geographic data that can be used in combination with other geographic datasets.
+DroneMapper is an open source toolkit for processing aerial drone imagery. Typical drones use simple point-and-shoot cameras, so the images from drones, while from a different perspective, are similar to any pictures taken from point-and-shoot cameras, i.e. non-metric imagery. DroneMapper turns those simple images into three dimensional geographic data that can be used in combination with other geographic datasets.
 
 ![](https://raw.githubusercontent.com/OpenDroneMap/OpenDroneMap/master/img/tol_ptcloud.png)
 
-In a word, OpenDroneMap is a toolchain for processing raw civilian UAS imagery to other useful products. What kind of products?
+In a word, DroneMapper is a toolchain for processing raw civilian UAS imagery to other useful products. What kind of products?
 
 1. Point Clouds
 2. Digital Surface Models
@@ -23,7 +23,7 @@ So far, it does Point Clouds, Digital Surface Models, Textured Digital Surface M
 
 ## QUICKSTART
 
-OpenDroneMap can run natively on Ubuntu 14.04 or later, see [Build and Run Using Docker](#build-and-run-using-docker) for running on Windows / MacOS. A Vagrant VM is also available: https://github.com/OpenDroneMap/odm_vagrant.
+DroneMapper can run natively on Ubuntu 14.04 or later, see [Build and Run Using Docker](#build-and-run-using-docker) for running on Windows / MacOS. A Vagrant VM is also available: https://github.com/OpenDroneMap/odm_vagrant.
 
 *Support for Ubuntu 12.04 is currently BROKEN with the addition of OpenSfM and Ceres-Solver. It is likely to remain broken unless a champion is found to fix it.*
 
